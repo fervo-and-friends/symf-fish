@@ -5,7 +5,6 @@ Fish support for Symfony developer shortcuts when using Docker.
 ## Requirements
 
 * Docker Compose >=1.18.0
-* jq
 
 ## Install
 
