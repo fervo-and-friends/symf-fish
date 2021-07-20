@@ -1,7 +1,7 @@
 function dcr
-    if test -f .maincontainer
-        docker-compose run (cat .maincontainer) $argv
+    if test -f .phpcontainer
+        docker-compose run (cat .phpcontainer) $argv
     else
-        echo "Could not find .maincontainer file"
+        echo "Could not find .phpcontainer file"
     end
 end

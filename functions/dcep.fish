@@ -1,4 +1,4 @@
-function dce
+function dcep
     if test -f .phpcontainer
         docker-compose exec (cat .phpcontainer) $argv
     else

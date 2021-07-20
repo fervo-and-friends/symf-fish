@@ -16,16 +16,26 @@ fisher fervo-and-friends/symf-fish
 
 ## Usage
 
-First, make sure there's `.maincontainer` file in the same directory as your `docker-compose.yaml` file. This should contain the Docker Compose name of the container in which the commands should be executed.
+First, make sure there's `.phpcontainer` and `.nodecontainer` files in the same directory as your `docker-compose.yaml` file. These should contain the Docker Compose names of the containers in which php and node commands respectively should be executed.
 
-### docker-compose exec
+### docker-compose exec php
 ```fish
-$ dce ls
+$ dcep ls
 ```
 
-### docker-compose run
+### docker-compose run php
 ```fish
-$ dcr ls
+$ dcrp ls
+```
+
+### docker-compose exec node
+```fish
+$ dcen ls
+```
+
+### docker-compose run node
+```fish
+$ dcrn ls
 ```
 
 ### Symfony console
@@ -37,6 +47,16 @@ $ dsf help
 > Note: Your auth.json will be exported to Docker. Make sure your auth.json is located in ~/.composer/auth.json.
 ```fish
 $ dcomposer
+```
+
+### Node
+```fish
+$ dnode
+```
+
+### npm
+```fish
+$ dnpm
 ```
 
 ### Behat

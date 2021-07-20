@@ -1,3 +1,3 @@
 function dphpspec
-    dce php ./(composer config bin-dir)/phpspec $argv
+    dcep php ./(composer config bin-dir)/phpspec $argv
 end
