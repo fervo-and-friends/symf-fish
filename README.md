@@ -11,7 +11,7 @@ Fish support for Symfony developer shortcuts when using Docker.
 With [fisherman]
 
 ```
-fisher fervo-and-friends/symf-fish
+fisher add fervo-and-friends/symf-fish
 ```
 
 ## Usage
